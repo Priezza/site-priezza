@@ -1,0 +1,22 @@
+{
+  "name": "site-priezza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://johnkaick@github.com/Priezza/site-priezza.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priezza/site-priezza/issues"
+  },
+  "homepage": "https://github.com/Priezza/site-priezza#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}

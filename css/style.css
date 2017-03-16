@@ -86,50 +86,50 @@ body {
   
   2% {
     opacity:1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
   8% {
     opacity:0.1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
   9% {
     opacity:1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
   12% {
     opacity:0.1;
-    text-shadow: 0px 0px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px #6495ED;
   }
   20% {
     opacity:1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px #6495ED;
   }
   25% {
     opacity:0.3;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px #6495ED;
   }
   30% {
     opacity:1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px #6495ED
   }
   
   70% {
     opacity:0.7;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px #6495ED
   }
   
   72% {
     opacity:0.2;
-    text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow:0px 0px 29px #6495ED;
   }
   
   77% {
     opacity:.9;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px #6495ED;
   }
   100% {
     opacity:.9;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px #6495ED;
   }
 }
 
@@ -176,42 +176,42 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 @keyframes letter-flicker {
   0% {
     opacity:0.1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
   2% {
     opacity:0.1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
   4% {
     opacity:1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
   
   
   19% {
     opacity:1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
   21% {
     opacity:0.1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
   23% {
     opacity:1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
   
   80% {
     opacity:1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
   83% {
     opacity:0.4;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
   87% {
     opacity:1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px #6495ED;
   }
 }
 
@@ -235,15 +235,6 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 }
 
 #section3 {
-  text-align:center;
-	padding-top: 50px;
-  height: 200px; 
-  width: 100%;
-	color: #fff;
-	background-color: #6495ED;   
-}
-
-#section4 {
   padding-top: 100px;
   border-top:30px solid #6495ED;
   height: 400px; 
@@ -257,6 +248,15 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   text-align:center;
   letter-spacing:10px;
   color: #fff;
+}
+
+#section4 {
+  text-align:center;
+	padding-top: 50px;
+  height: 200px; 
+  width: 100%;
+	color: #fff;
+	background-color: #6495ED;   
 }
 
 #section5 {
@@ -348,4 +348,25 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   width: 32%;
   float: right;
   padding-right: 3%;
+}
+
+.tituloBorder {
+  text-shadow:#000 1px -1px 2px;
+}
+
+.letraBorder {
+  text-shadow:#000 1px -1px 2px;
+  font-size:20px;
+}
+
+.containerCenter {
+  position:relative;
+  left: 20%;
+  width: 60%;
+  padding-right: 3%;
+}
+
+.containerButton {
+  float: right;
+  padding-right: 2%;
 }
