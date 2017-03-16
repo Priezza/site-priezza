@@ -2,17 +2,17 @@
 
 body {
   background-color:black;
+  position: relative;
 }
-#snow{
+.snow{
     background: none;
     font-family: Androgyne;
-    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');    position: absolute;
     z-index:1;
+    width: 100%;
+    height: 800px;
+    top: 0;
+    left: 0;
     -webkit-animation: snow 10s linear infinite;
     -moz-animation: snow 10s linear infinite;
     -ms-animation: snow 10s linear infinite;
@@ -47,19 +47,19 @@ body {
 .border-h2 {
   text-align:center;
   position:relative;
-  border:5px solid #1086e8;
-  width:700px;
+  border:5px solid #6495ED;
   height:20%;
-  top:150px;
+  width:50%;
+  top:250px;
   border-radius:20px;
   left:35%;
-  margin: -50px 200px 200px -150px;
+  margin: -50px 400px 400px -150px;
   animation: border-flicker 2s linear infinite;
 }
 
 .h1-edition {
   text-align:center;
-  color:#1086e8;
+  color:#E0FFFF;
   font-family: 'Raleway', sans-serif;
   font-size:45px;
   letter-spacing:7px;
@@ -67,7 +67,7 @@ body {
 }
 
 .h2-edition {  
-  color:#FF00E6;
+  color:#E0FFFF;
   font-family: 'Raleway', sans-serif;
   font-size:128px;
   letter-spacing:20px;
@@ -81,7 +81,7 @@ body {
 @keyframes text-flicker {
   0% {
     opacity:0.1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    text-shadow: 0px 0px 29px FFD700;
   }
   
   2% {
@@ -213,4 +213,139 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
     opacity:1;
     text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
   }
+}
+
+/* BARRA DE NAVEGAÇÃO: https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp */
+/* PARALLAX: https://www.w3schools.com/howto/howto_css_parallax.asp */
+
+
+#section1 {
+	padding-top: 50px;
+  height: 800px;
+  width: 100%;
+}
+		
+#section2 {
+  text-align:center;
+	padding-top: 50px;
+  height: 200px; 
+  width: 100%;
+	color: #fff;
+	background-color: #6495ED;   
+}
+
+#section3 {
+  text-align:center;
+	padding-top: 50px;
+  height: 200px; 
+  width: 100%;
+	color: #fff;
+	background-color: #6495ED;   
+}
+
+#section4 {
+  padding-top: 100px;
+  border-top:30px solid #6495ED;
+  height: 400px; 
+  width: 100%;
+	background-image: url('../image/produto.jpg'); 
+  background-color: transparent;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  text-align:center;
+  letter-spacing:10px;
+  color: #fff;
+}
+
+#section5 {
+  padding-top: 50px;
+  border-top:30px solid #6495ED;
+  height: 800px; 
+  width: 100%;
+	background-image: url('../image/contato.jpeg'); 
+  background-color: transparent;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  text-align:center;
+  color: #fff;
+}
+
+#conteudoSobre {
+  height: 600px; 
+  width: 100%;
+	background-image: url('../image/sobre.jpeg'); 
+  background-color: transparent;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#conteudoProduto {
+  height: 600px; 
+  width: 100%;
+	background-image: url('../image/negocio.jpeg'); 
+  background-color: transparent;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.panelSobre {
+	padding-top: 40px;
+}
+
+.panelSobre1 {
+  width: 24%;
+  float: left;
+  padding-left: 3%;
+}
+.panelSobre2 {
+  width: 24%;
+  float: left;
+  padding-left: 3%;
+}
+
+.panelSobre3 {
+  width: 24%;
+  float: left;
+  padding-left: 3%;
+}
+
+.panelSobre4 {
+  width: 24%;
+  float: right;
+  padding-right: 3%;
+}
+
+.panel1{
+  height: 500px;
+  text-align: center;
+}
+
+.panelProduto {
+	padding-top: 40px;
+}
+
+.panelProduto1 {
+  width: 32%;
+  float: left;
+  padding-left: 3%;
+}
+
+.panelProduto2 {
+  width: 32%;
+  float: left;
+  padding-left: 3%;
+}
+
+.panelProduto3 {
+  width: 32%;
+  float: right;
+  padding-right: 3%;
 }
